@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply font-semibold text-sm bg-sky-500 px-2 py-1 mx-1 rounded-md text-white;
+}
