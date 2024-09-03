@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <>
@@ -19,7 +17,7 @@ const Header = () => {
           </div>
           <div>
             <button className="btn ">Login</button>
-            <button className="btn">Register</button>
+            <button className="btn ml-2">Register</button>
           </div>
         </div>
       </div>

@@ -1,20 +1,18 @@
-import React from "react";
-
 const Benefits = () => {
   return (
     <>
-      <div className="flex-col flex mt-3 mx-[5%] my-5 lg:grid lg:grid-cols-2 lg:justify-center">
+      <div className="flex-col flex mt-3 mx-[5%] my-5 lg:mx-[10%] lg:grid lg:grid-cols-2 lg:justify-center lg:items-center">
         <div className=" rounded-md  ">
           <div className="lg:w-96  bg-slate-100 rounded-md">
             <div className="p-4">
-              <h1 className="font-bold text-2xl w-72">
+              <h1 className="font-bold text-2xl w-72 text-blue-950">
                 The new way to find your new home
               </h1>
-              <p className="text-sm font-semibold w-64 mt-4">
+              <p className="text-sm font-semibold w-64 mt-4 text-blue-950">
                 Find your dream place to live in with more than 10k+ properties
                 listed.
               </p>
-              <button>Browse Properties</button>
+              <button className="btn mt-4">Browse Properties</button>
             </div>
             <div>
               <img
@@ -25,14 +23,10 @@ const Benefits = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mt-6  lg:flex lg:flex-col lg:justify-end lg:items-end">
           <div className="flex justify-center items-center mb-3">
-            <div className="w-64 bg-slate-100 p-2 rounded-md mr-3">
-              <img
-                src="../../public/images/Icon.png"
-                alt=""
-                className="w-11 mb-3"
-              />
+            <div className="w-64 h-52 bg-slate-100 p-2 rounded-md mr-3">
+              <img src="/images/Icon.png" alt="" className="w-11 mb-3" />
               <h1 className="font-bold mb-3 text-slate-800">
                 Property Insurance
               </h1>
@@ -41,48 +35,32 @@ const Benefits = () => {
                 and insurance for their better life.
               </p>
             </div>
-            <div className="w-64 bg-slate-100 p-2 rounded-md">
-              <img
-                src="../../public/images/Icon.png"
-                alt=""
-                className="w-11 mb-3"
-              />
-              <h1 className="font-bold mb-3 text-slate-800">
-                Property Insurance
-              </h1>
+            <div className="w-64 h-52 bg-slate-100 p-2 rounded-md">
+              <img src="/images/Icon2.svg" alt="" className="w-11 mb-3" />
+              <h1 className="font-bold mb-3 text-slate-800">Best Price</h1>
               <p className="text-sm text-slate-600 font-semibold text-justify">
-                We offer our customer property protection of liability coverage
-                and insurance for their better life.
+                Not sure what you should be charging for your property? No need
+                to worry, let us do the numbers for you.
               </p>
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <div className="w-64 bg-slate-100 p-2 rounded-md mr-3">
-              <img
-                src="../../public/images/Icon.png"
-                alt=""
-                className="w-11 mb-3"
-              />
-              <h1 className="font-bold mb-3 text-slate-800">
-                Property Insurance
+            <div className="w-64 h-52 bg-slate-100 p-2 rounded-md mr-3">
+              <img src="/images/Icon3.png" alt="" className="w-11 mb-3" />
+              <h1 className="font-bold mb-3 text-slate-800 ">
+                Lowest Commission
               </h1>
               <p className="text-sm text-slate-600 font-semibold text-justify">
-                We offer our customer property protection of liability coverage
-                and insurance for their better life.
+                You no longer have to negotiate commissions and haggle with
+                other agents it only cost 2%!
               </p>
             </div>
-            <div className="w-64 bg-slate-100 p-2 rounded-md">
-              <img
-                src="../../public/images/Icon.png"
-                alt=""
-                className="w-11 mb-3"
-              />
-              <h1 className="font-bold mb-3 text-slate-800">
-                Property Insurance
-              </h1>
+            <div className="w-64 h-52 bg-slate-100 p-2 rounded-md">
+              <img src="/images/Icon4.svg" alt="" className="w-11 mb-3" />
+              <h1 className="font-bold mb-3 text-slate-800">Overall Control</h1>
               <p className="text-sm text-slate-600 font-semibold text-justify">
-                We offer our customer property protection of liability coverage
-                and insurance for their better life.
+                Get a virtual tour, and schedule visits before you rent or buy
+                any properties.
               </p>
             </div>
           </div>
