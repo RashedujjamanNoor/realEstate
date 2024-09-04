@@ -9,3 +9,7 @@
 .themecolor {
   @apply text-[#7065F0];
 }
+
+.slick-slide > div {
+  margin: 0 0.5rem;
+}
