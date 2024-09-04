@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Benefits from "../components/Benefits";
 import PropertyListing from "../components/PropertyListing";
+import Landlords from "../components/Landlords";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Benefits />
       <PropertyListing />
+      <Landlords />
     </>
   );
 };

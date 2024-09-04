@@ -142,11 +142,7 @@ const PropertyListing = () => {
                   key={index}
                   className="rounded overflow-hidden bg-gray-100 shadow-md my-2 md:w-96"
                 >
-                  <img
-                    src={curElem.img}
-                    alt=""
-                    className="object-cover md:w-96"
-                  />
+                  <img src={curElem.img} alt="" className="object-cover w-96" />
                   <div className="mx-2 my-2">
                     <div className="flex justify-between items-center">
                       <p>
