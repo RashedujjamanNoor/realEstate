@@ -42,7 +42,7 @@ const Landlords = () => {
           {data.map((item, index) => (
             <div
               key={index}
-              className="text-white h-80 p-5 w-96 mx-7 bgtheme rounded-md  "
+              className="text-white h-80 p-5 w-80 mx-7 bgtheme rounded-md  "
             >
               <img src={item.img} alt="" className="w-16" />
               <h1 className="text-2xl font-bold py-6">{item.title}</h1>
@@ -62,16 +62,16 @@ const Landlords = () => {
             <div className="lg:hidden border-b-2 border-gray-500 mx-[40%] mt-8"></div>
           </div>
           <div className="mt-8 pb-8 w-full  lg:border-r-2 lg:flex lg:flex-col lg:justify-center lg:items-center">
-            <h1 className="text-white font-bold text-5xl mb-2">7.4%</h1>
+            <h1 className="text-white font-bold text-5xl mb-2">3,856</h1>
             <p className="font-semibold text-lg text-gray-300">
-              Property Return Rate
+              Property in Sell & Rent
             </p>
             <div className="lg:hidden border-b-2 border-gray-500 mx-[40%] mt-8"></div>
           </div>
           <div className="  mt-8 pb-8 w-full  lg:flex lg:flex-col lg:justify-center lg:items-center">
-            <h1 className="text-white font-bold text-5xl mb-2">7.4%</h1>
+            <h1 className="text-white font-bold text-5xl mb-2">2,540</h1>
             <p className="font-semibold text-lg text-gray-300">
-              Property Return Rate
+              Daily Completed Transactions
             </p>
             <div className="lg:hidden border-b-2 border-gray-500 mx-[40%] mt-8"></div>
           </div>

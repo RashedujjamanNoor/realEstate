@@ -17,20 +17,16 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative ">
-          <img
-            src="../../public/images/Image.png"
-            alt=""
-            className="object-cover "
-          />
+          <img src="/images/Image.png" alt="" className="object-cover " />
           <div>
             <img
-              src="../../public/images/Testimonial.png"
+              src="/images/Testimonial.png"
               alt=""
               className="absolute top-9 ml-2 lg:top-40 lg:left-4 shadow-lg w-20 object-cover lg:w-52"
             />
           </div>
           <img
-            src="../../public/images/Trustpilot.png"
+            src="/images/Trustpilot.png"
             alt=""
             className="absolute bottom-3 w-20 right-0 lg:bottom-20 lg:right-36 lg:w-48"
           />

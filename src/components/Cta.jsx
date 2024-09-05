@@ -1,7 +1,7 @@
 const Cta = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center py-8 bg-slate-100">
+      <div className="flex flex-col justify-center items-center py-8 bg-slate-100 overflow-x-hidden">
         <h2 className="text-2xl themecolor">No Spam Promise</h2>
         <h1 className="text-4xl font-bold text-blue-950 my-4">
           Are you a landlord?

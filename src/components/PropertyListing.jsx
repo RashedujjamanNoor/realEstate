@@ -13,7 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 const PropertyListing = () => {
   const data = [
     {
-      img: "../../public/images/palm harbor.svg",
+      img: "/images/palm harbor.svg",
       title: "Palm Harbor",
       location: "2699 Green Valley, Highland Lake, FL",
       beds: "3",
@@ -22,18 +22,18 @@ const PropertyListing = () => {
       rent: "2095",
     },
     {
-      img: "../../public/images/palm harbor.svg",
-      title: "Palm Harbor",
-      location: "2699 Green Valley, Highland Lake, FL",
-      beds: "3",
+      img: "/images/Mask Group.svg",
+      title: "Beverly Springfield",
+      location: "2821 Lake Sevilla, Palm Harbor, TX",
+      beds: "4",
       bathrooms: "2",
-      size: "6*8",
-      rent: "2095",
+      size: "6*7.5",
+      rent: "2700",
     },
     {
-      img: "../../public/images/palm harbor.svg",
-      title: "Palm Harbor",
-      location: "2699 Green Valley, Highland Lake, FL",
+      img: "/images/Mask Group 2.svg",
+      title: "Faulkner Ave",
+      location: "909 Woodland St, Michigan, IN",
       beds: "3",
       bathrooms: "2",
       size: "6*8",
@@ -49,7 +49,7 @@ const PropertyListing = () => {
   };
   return (
     <>
-      <div className="mt-3 mx-[5%] lg:mx-[10%] ">
+      <div className="mt-3 overflow-x-hidden px-[5%] lg:mx-[10%] ">
         <div className="text-center">
           <h1 className="font-bold text-3xl text-blue-950 lg:text-3xl">
             Populer properties
@@ -87,12 +87,12 @@ const PropertyListing = () => {
             {data.map((curElem, index) => (
               <div
                 key={index}
-                className="rounded overflow-hidden bg-gray-100 shadow-md my-2 md:w-80 2xl:w-96"
+                className="rounded overflow-hidden bg-gray-100 shadow-md my-2 md:w-80 "
               >
                 <img
                   src={curElem.img}
                   alt=""
-                  className="object-cover md:w-96"
+                  className="object-cover w-full lg:w-96"
                 />
                 <div className="mx-2 my-2">
                   <div className="flex justify-between items-center">

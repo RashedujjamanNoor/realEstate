@@ -1,9 +1,9 @@
 const Benefits = () => {
   return (
     <>
-      <div className="flex-col flex mt-3 mx-[5%] my-5 lg:mx-[10%] lg:grid lg:grid-cols-2 lg:justify-center lg:items-center">
-        <div className=" rounded-md  ">
-          <div className="lg:w-96  bg-slate-100 rounded-md">
+      <div className="flex-col flex mt-3 overflow-x-hidden px-[5%] my-5 lg:mx-[10%] lg:grid lg:grid-cols-1 xl:grid-cols-2 lg:justify-center  lg:items-center">
+        <div className=" rounded-md  mt-6 mr-2">
+          <div className="xl:w-96  bg-slate-100 rounded-md flex flex-col justify-center items-center">
             <div className="p-4">
               <h1 className="font-bold text-2xl w-72 text-blue-950">
                 The new way to find your new home
@@ -14,16 +14,16 @@ const Benefits = () => {
               </p>
               <button className="btn mt-4">Browse Properties</button>
             </div>
-            <div>
+            <div className="flex justify-center items-center">
               <img
-                src="../../public/images/Illustration.png"
+                src="/images/Illustration.png"
                 alt=""
                 className="float-right w-80"
               />
             </div>
           </div>
         </div>
-        <div className="mt-6  lg:flex lg:flex-col lg:justify-end lg:items-end">
+        <div className="mt-6  lg:flex lg:flex-col lg:justify-center lg:items-center">
           <div className="flex justify-center items-center mb-3">
             <div className="w-64 h-52 bg-slate-100 p-2 rounded-md mr-3">
               <img src="/images/Icon.png" alt="" className="w-11 mb-3" />
